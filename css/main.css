@@ -578,15 +578,11 @@ header .nav > li > a:hover::before {
 .features .features-con .feat:nth-of-type(2) .feat-content h3:after {
   background-color: #009688;
 }
-.features .features-con .feat:nth-of-type(3, 2) .feat-content a.feat-more {
+.features .features-con .feat:nth-of-type(3) .feat-content a.feat-more {
   color: #009688;
   border-color: #009688;
 }
-.features
-  .features-con
-  .feat:nth-of-type(3, 2)
-  .feat-content
-  a.feat-more:before {
+.features .features-con .feat:nth-of-type(3) .feat-content a.feat-more:before {
   background-color: #009688(3);
 }
 
@@ -1146,9 +1142,7 @@ header .nav > li > a:hover::before {
   justify-content: space-between;
   font-weight: bold;
 }
-.videos-con .playlist ul {
-  /*padding: 20px;*/
-}
+
 .videos-con .playlist ul li {
   font-size: 1rem;
   padding: 17px 20px;
